@@ -76,7 +76,7 @@
                 <!-- EJERCICIO: Usa flex para poner logo y enlaces en línea -->
                 <!-- EJERCICIO: Centra verticalmente con items-center -->
                 <!-- EJERCICIO: Espacia con justify-between -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="flex items-center justify-between">
                     <!-- Logo -->
                     <div class="text-white font-bold text-2xl">
                         MiPortafolio
@@ -84,7 +84,7 @@
                     
                     <!-- EJERCICIO: Flex para los enlaces en línea, gap para espacio entre ellos -->
                     <!-- EJERCICIO: items-center para alinear verticalmente -->
-                    <nav class="___COMPLETA_AQUI___">
+                    <nav class="flex items-center gap-6">
                         <a href="#" class="text-gray-300 hover:text-white transition-colors">Inicio</a>
                         <a href="#" class="text-gray-300 hover:text-white transition-colors">Proyectos</a>
                         <a href="#" class="text-gray-300 hover:text-white transition-colors">Sobre Mí</a>
@@ -105,7 +105,7 @@
                 <!-- EJERCICIO: Flex para poner imagen y contenido lado a lado en desktop -->
                 <!-- EJERCICIO: flex-col en móvil, flex-row en desktop (md:) -->
                 <!-- EJERCICIO: items-center para centrar verticalmente -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="flex flex-col md:flex-row items-center">
                     <!-- Imagen -->
                     <div class="w-full md:w-1/2 bg-gradient-to-br from-indigo-500 to-purple-600 h-64 md:h-auto flex items-center justify-center">
                         <span class="text-white text-8xl">👨‍💻</span>
@@ -114,15 +114,15 @@
                     <!-- Contenido -->
                     <!-- EJERCICIO: Usa flex-1 para que ocupe el espacio restante -->
                     <!-- EJERCICIO: Padding de 8 -->
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex-1 p-8">
                         <h1 class="text-4xl font-bold text-gray-900 mb-4">
-                            Hola, soy Juan Pérez
+                            Hola, soy Valentina Sánchez
                         </h1>
                         <p class="text-xl text-gray-600 mb-6">
                             Desarrollador Full Stack especializado en crear experiencias web increíbles.
                         </p>
                         <!-- EJERCICIO: Flex para los botones en línea, gap para espacio -->
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="flex gap-4">
                             <button class="px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700">
                                 Ver Proyectos
                             </button>
@@ -143,14 +143,14 @@
             
             <!-- EJERCICIO: Flex con wrap para que las cards se ajusten -->
             <!-- EJERCICIO: gap de 6, justify-center para centrar -->
-            <div class="___COMPLETA_AQUI___">
+            <div class="flex flex-wrap gap-6 justify-center">
                 
                 <!-- Skill Card 1 -->
                 <!-- EJERCICIO: Flex para icono y texto en línea -->
                 <!-- EJERCICIO: items-center para centrar verticalmente -->
                 <!-- EJERCICIO: gap de 4 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow w-64">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-2xl">
                             ⚛️
                         </div>
@@ -163,7 +163,7 @@
 
                 <!-- Skill Card 2 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow w-64">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-2xl">
                             🟢
                         </div>
@@ -176,7 +176,7 @@
 
                 <!-- Skill Card 3 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow w-64">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-2xl">
                             🎨
                         </div>
@@ -189,7 +189,7 @@
 
                 <!-- Skill Card 4 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow w-64">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center text-2xl">
                             🐍
                         </div>
@@ -214,25 +214,25 @@
                 <!-- Project 1 -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
                     <!-- EJERCICIO: Flex row para desktop, column para móvil -->
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex flex-col md:flex-row">
                         <div class="w-full md:w-1/3 bg-gradient-to-br from-blue-400 to-cyan-500 h-48 md:h-auto flex items-center justify-center text-white text-5xl">
                             🛍️
                         </div>
                         <!-- EJERCICIO: flex-1 para ocupar espacio restante, padding de 6 -->
                         <!-- EJERCICIO: Usa flex flex-col para organizar contenido verticalmente -->
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="flex-1 p-6 flex flex-col">
                             <h3 class="text-2xl font-bold text-gray-900 mb-2">E-commerce App</h3>
                             <p class="text-gray-600 mb-4">
                                 Plataforma de comercio electrónico completa con carrito, pagos y panel admin.
                             </p>
                             <!-- EJERCICIO: Flex para las tecnologías en línea, gap y wrap -->
-                            <div class="___COMPLETA_AQUI___ mb-4">
+                            <div class="flex flex-wrap gap-2 mb-4">
                                 <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React</span>
                                 <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Node.js</span>
                                 <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">MongoDB</span>
                             </div>
                             <!-- EJERCICIO: Flex para botones, gap de 3 -->
-                            <div class="___COMPLETA_AQUI___">
+                            <div class="flex gap-3">
                                 <button class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                                     Ver Demo
                                 </button>
@@ -246,21 +246,21 @@
 
                 <!-- Project 2 -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex flex-col md:flex-row">
                         <div class="w-full md:w-1/3 bg-gradient-to-br from-purple-400 to-pink-500 h-48 md:h-auto flex items-center justify-center text-white text-5xl">
                             📱
                         </div>
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="flex-1 p-6 flex flex-col">
                             <h3 class="text-2xl font-bold text-gray-900 mb-2">App Móvil Social</h3>
                             <p class="text-gray-600 mb-4">
                                 Red social moderna con chat en tiempo real, stories y notificaciones push.
                             </p>
-                            <div class="___COMPLETA_AQUI___ mb-4">
+                            <div class="flex flex-wrap gap-2 mb-4">
                                 <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React Native</span>
                                 <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">Firebase</span>
                                 <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Socket.io</span>
                             </div>
-                            <div class="___COMPLETA_AQUI___">
+                            <div class="flex gap-3">
                                 <button class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                                     Ver Demo
                                 </button>
@@ -282,13 +282,12 @@
             </h2>
             
             <!-- EJERCICIO: Flex con wrap, gap de 6, justify-center -->
-            <div class="___COMPLETA_AQUI___">
-                
+            <div class="flex flex-wrap gap-6 justify-center">
                 <!-- Testimonial 1 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg w-full md:w-80">
                     <!-- EJERCICIO: Flex para poner foto y nombre en línea -->
                     <!-- EJERCICIO: items-center, gap de 4, margin bottom de 4 -->
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4 mb-4">
                         <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold">
                             JD
                         </div>
@@ -304,7 +303,7 @@
 
                 <!-- Testimonial 2 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg w-full md:w-80">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4 mb-4">
                         <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
                             MS
                         </div>
@@ -320,7 +319,7 @@
 
                 <!-- Testimonial 3 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg w-full md:w-80">
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4 mb-4">
                         <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold">
                             PR
                         </div>
@@ -348,7 +347,7 @@
                 </p>
                 <!-- EJERCICIO: Flex para centrar botones, gap de 4, justify-center -->
                 <!-- EJERCICIO: Responsive: flex-col en móvil, flex-row en tablet -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
                     <button class="px-8 py-4 bg-white text-indigo-600 rounded-lg font-bold hover:bg-gray-100 shadow-lg">
                         Enviar Mensaje
                     </button>
@@ -367,7 +366,7 @@
             <!-- EJERCICIO: Flex para organizar columnas del footer -->
             <!-- EJERCICIO: justify-between, gap de 8 -->
             <!-- EJERCICIO: flex-col en móvil, flex-row en desktop -->
-            <div class="___COMPLETA_AQUI___ mb-8">
+            <div class="flex flex-col md:flex-row justify-between gap-8 mb-8">
                 
                 <div>
                     <h3 class="text-white font-bold text-lg mb-4">MiPortafolio</h3>
@@ -379,7 +378,7 @@
                 <!-- EJERCICIO: Flex para iconos sociales en línea, gap de 4 -->
                 <div>
                     <h3 class="text-white font-bold text-lg mb-4">Sígueme</h3>
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="flex items-center gap-4">
                         <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center transition-colors">
                             <span>🐦</span>
                         </a>

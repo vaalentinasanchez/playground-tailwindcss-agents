@@ -75,19 +75,19 @@
             <!-- EJERCICIO: Añade padding responsive (p-4 en móvil, p-8 en desktop) -->
             <!-- EJERCICIO: Añade un fondo degradado de azul a púrpura -->
             <!-- EJERCICIO: Añade bordes redondeados grandes -->
-            <div class="___COMPLETA_AQUI___ text-white">
+            <div class="p-2 sm:p-4 md:p-6 lg:p-8 xl:p-12; text-white bg-gradient-to-r from-blue-500 to-purple-600 rounded-3xl">
                 <div class="max-w-3xl mx-auto text-center">
                     <!-- EJERCICIO: Haz que este título sea pequeño en móvil (text-2xl) y más grande en desktop (text-5xl) -->
-                    <h2 class="___COMPLETA_AQUI___ font-bold mb-4">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Bienvenido a TechShop
                     </h2>
                     <!-- EJERCICIO: Ajusta el tamaño del texto: text-base en móvil, text-lg en tablet, text-xl en desktop -->
-                    <p class="___COMPLETA_AQUI___ text-blue-100 mb-8">
+                    <p class="text-base sm:text-lg md:text-xl text-blue-100 mb-8">
                         Los mejores productos tecnológicos al mejor precio. Envío gratis en compras sobre $50.000
                     </p>
                     <!-- EJERCICIO: Añade padding (px-8 py-4), fondo blanco, texto azul, bordes redondeados -->
                     <!-- EJERCICIO: Añade hover effects (hover:bg-gray-100) y transiciones -->
-                    <button class="___COMPLETA_AQUI___ font-semibold">
+                    <button class="px-8 py-4 bg-white text-blue-600 rounded-lg shadow hover:bg-purple-200 transition">
                         Ver Productos
                     </button>
                 </div>
@@ -103,11 +103,11 @@
             <!-- EJERCICIO: Crea un grid responsive -->
             <!-- EJERCICIO: 1 columna en móvil, 2 en tablet (md:), 3 en desktop (lg:) -->
             <!-- EJERCICIO: Añade gap de 6 o 8 entre elementos -->
-            <div class="___COMPLETA_AQUI___">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <!-- Feature 1 -->
                 <!-- EJERCICIO: Fondo blanco, padding de 6, bordes redondeados, sombra -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                         <span class="text-2xl">🚚</span>
                     </div>
@@ -118,7 +118,7 @@
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
                     <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
                         <span class="text-2xl">✓</span>
                     </div>
@@ -129,7 +129,7 @@
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
                     <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
                         <span class="text-2xl">💳</span>
                     </div>
@@ -150,23 +150,23 @@
             
             <!-- EJERCICIO: Grid responsive similar al anterior -->
             <!-- EJERCICIO: 1 columna en móvil, 2 en tablet, 4 en desktop grande (xl:) -->
-            <div class="___COMPLETA_AQUI___">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 
                 <!-- Product 1 -->
                 <!-- EJERCICIO: Fondo blanco, borde gris, bordes redondeados, sombra, overflow hidden -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="bg-white border border-gray-200 rounded-2xl shadow overflow-hidden">
                     <!-- EJERCICIO: Altura fija (h-48), fondo con degradado azul -->
-                    <div class="___COMPLETA_AQUI___ flex items-center justify-center text-white text-5xl">
+                    <div class="h-48 bg-gradient-to-r from-blue-300 to-blue-600 flex items-center justify-center text-white text-5xl">
                         💻
                     </div>
                     <!-- EJERCICIO: Padding de 4 -->
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">Laptop Pro</h3>
                         <p class="text-gray-600 text-sm mb-3">Intel i7, 16GB RAM</p>
                         <div class="flex items-center justify-between">
                             <span class="text-2xl font-bold text-blue-600">$899.990</span>
                             <!-- EJERCICIO: Padding pequeño (px-3 py-1), fondo azul, texto blanco, bordes redondeados, texto pequeño -->
-                            <button class="___COMPLETA_AQUI___">
+                            <button class="px-3 py-1 bg-blue-600 text-white rounded text-sm">
                                 Comprar
                             </button>
                         </div>
@@ -174,16 +174,16 @@
                 </div>
 
                 <!-- Product 2 -->
-                <div class="___COMPLETA_AQUI___">
-                    <div class="___COMPLETA_AQUI___ flex items-center justify-center text-white text-5xl">
-                        📱
-                    </div>
-                    <div class="___COMPLETA_AQUI___">
+                <div class="bg-white border border-gray-200 rounded-2xl shadow overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-purple-200 to-purple-800 flex items-center justify-center text-white text-5xl">
+                    📱
+                </div>
+                    <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">Smartphone X</h3>
                         <p class="text-gray-600 text-sm mb-3">6.5", 128GB, 5G</p>
                         <div class="flex items-center justify-between">
                             <span class="text-2xl font-bold text-purple-600">$599.990</span>
-                            <button class="___COMPLETA_AQUI___">
+                            <button class="px-3 py-1 bg-blue-600 text-white rounded text-sm">
                                 Comprar
                             </button>
                         </div>
@@ -191,16 +191,16 @@
                 </div>
 
                 <!-- Product 3 -->
-                <div class="___COMPLETA_AQUI___">
-                    <div class="___COMPLETA_AQUI___ flex items-center justify-center text-white text-5xl">
+                <div class="bg-white border border-gray-200 rounded-2xl shadow overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-green-200 to-green-700 flex items-center justify-center text-white text-5xl">
                         🎧
                     </div>
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">Auriculares Pro</h3>
                         <p class="text-gray-600 text-sm mb-3">Noise cancelling</p>
                         <div class="flex items-center justify-between">
                             <span class="text-2xl font-bold text-green-600">$199.990</span>
-                            <button class="___COMPLETA_AQUI___">
+                            <button class="px-3 py-1 bg-blue-600 text-white rounded text-sm">
                                 Comprar
                             </button>
                         </div>
@@ -208,16 +208,16 @@
                 </div>
 
                 <!-- Product 4 -->
-                <div class="___COMPLETA_AQUI___">
-                    <div class="___COMPLETA_AQUI___ flex items-center justify-center text-white text-5xl">
+                <div class="bg-white border border-gray-200 rounded-2xl shadow overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-pink-200 to-pink-800 flex items-center justify-center text-white text-5xl">
                         ⌚
                     </div>
-                    <div class="___COMPLETA_AQUI___">
+                    <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">Smart Watch</h3>
                         <p class="text-gray-600 text-sm mb-3">GPS, Waterproof</p>
                         <div class="flex items-center justify-between">
                             <span class="text-2xl font-bold text-pink-600">$299.990</span>
-                            <button class="___COMPLETA_AQUI___">
+                            <button class="px-3 py-1 bg-blue-600 text-white rounded text-sm">
                                 Comprar
                             </button>
                         </div>
@@ -230,7 +230,7 @@
         <!-- Newsletter Section -->
         <section class="max-w-4xl mx-auto mb-16">
             <!-- EJERCICIO: Fondo degradado de verde a teal, padding de 8, bordes redondeados grandes, sombra grande -->
-            <div class="___COMPLETA_AQUI___ text-white text-center">
+            <div class="p-8 bg-gradient-to-r from-green-400 to-teal-500 rounded-3xl shadow-2xl text-white text-center">
                 <h2 class="text-3xl font-bold mb-4">
                     Suscríbete a Nuestro Newsletter
                 </h2>
@@ -241,16 +241,16 @@
                 <!-- EJERCICIO: Flex responsive -->
                 <!-- EJERCICIO: flex-col en móvil, flex-row en tablet (md:) -->
                 <!-- EJERCICIO: Gap de 4, centrar items -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="flex flex-col md:flex-row gap-4 items-center">
                     <!-- EJERCICIO: flex-1 para que crezca, padding (px-4 py-3), bordes redondeados -->
                     <input 
                         type="email" 
                         placeholder="tu@email.com" 
-                        class="___COMPLETA_AQUI___ text-gray-800"
+                        class="flex-1 px-4 py-3 border border-gray-300 rounded"
                     />
                     <!-- EJERCICIO: Padding (px-8 py-3), fondo blanco, texto verde, bordes redondeados, font bold -->
                     <!-- EJERCICIO: Hover para cambiar a verde claro, transiciones -->
-                    <button class="___COMPLETA_AQUI___">
+                    <button class="px-8 py-3 bg-white text-green-600 rounded font-bold hover:bg-green-100 transition">
                         Suscribirse
                     </button>
                 </div>
@@ -267,32 +267,32 @@
                 <!-- EJERCICIO: Grid responsive -->
                 <!-- EJERCICIO: 1 columna en móvil, 2 en tablet, 4 en desktop -->
                 <!-- EJERCICIO: Gap de 8 -->
-                <div class="___COMPLETA_AQUI___">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     
                     <div class="text-center">
                         <!-- EJERCICIO: Texto muy grande (text-4xl o text-5xl), color azul, font bold -->
-                        <div class="___COMPLETA_AQUI___">
-                            10K+
+                        <div class="text-5xl font-bold text-blue-600">
+                            100K+
                         </div>
                         <p class="text-gray-600 mt-2">Clientes Felices</p>
                     </div>
 
                     <div class="text-center">
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="text-5xl font-bold text-blue-600">
                             500+
                         </div>
                         <p class="text-gray-600 mt-2">Productos</p>
                     </div>
 
                     <div class="text-center">
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="text-5xl font-bold text-blue-600">
                             24/7
                         </div>
                         <p class="text-gray-600 mt-2">Soporte</p>
                     </div>
 
                     <div class="text-center">
-                        <div class="___COMPLETA_AQUI___">
+                        <div class="text-5xl font-bold text-blue-600">
                             99%
                         </div>
                         <p class="text-gray-600 mt-2">Satisfacción</p>
@@ -310,7 +310,7 @@
             <!-- EJERCICIO: Grid responsive para el footer -->
             <!-- EJERCICIO: 1 columna en móvil, 3 columnas en tablet (md:) -->
             <!-- EJERCICIO: Gap de 8 -->
-            <div class="___COMPLETA_AQUI___ mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 
                 <div>
                     <h3 class="text-white font-bold text-lg mb-4">TechShop</h3>
